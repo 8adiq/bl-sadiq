@@ -11,3 +11,39 @@ MCQs
 9 C
 10 A
 11 D
+
+
+Theory 
+3. Git is a version control tool that helps that helps keep track of changes that are made to a0 project. 
+Git is very important because it allows more than one person to work on a project. It also keeps record of 
+what change what made and who made the change. 
+
+4. Steps
+ - Create project folder
+   mkdir backend 
+
+ - Create a file for your project
+   touch project.py
+
+ - Initialize a git repo in the project folder
+   git init
+
+ - Add files to staging area after working on them
+   git add project.py or git add . to add all files
+
+ - Commit the changes you made in those files
+   git commit -m "Initial commit for backend setup"
+
+ - Create a github account at github.com
+
+ - Create a new repo on github and name the new repo "my-project"
+
+ - Add the remote repo to your local repo
+   git remote add origin https://github.com/your-username/my-project.git 
+   replace "your-username" with the usernam you choose when you were creating an account
+
+ - Push the changes you made to github
+   git push -u origin master
+
+
+
